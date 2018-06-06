@@ -20,7 +20,6 @@ test("produces the same result as Array.prototype.map", async () => {
   expect(output).toEqual(input.map(cb));
 });
 
-
 test("maps asynchronously", () => {
   const input = [1, 2, 3, 4];
   const output: number[] = [];
