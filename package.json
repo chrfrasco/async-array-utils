@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest",
+    "test:perf": "npm run build && node dist/perf"
+  },
   "devDependencies": {
     "@types/jest": "^22.2.3",
     "@types/node": "^10.1.4",
